@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationBigoAdsAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/bigoads-adapter/AppLovinMediationBigoAdsAdapter-6.1.0.0.zip",
-            checksum: "124af697fd841a35cbe90e6f645ac90816704c1933aea994488bef74809020fa"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/bigoads-adapter/AppLovinMediationBigoAdsAdapter-6.1.0.1.zip",
+            checksum: "03d09d511cfcf0d614ef872cdb20a686e81f6be302f43a60425b0097b6e35157"
         )
     ]
 )
