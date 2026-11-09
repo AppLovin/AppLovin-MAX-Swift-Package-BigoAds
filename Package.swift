@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/bigo-ads/BigoADS-Swift-Package.git", exact: "6.1.0")
+        .package(url: "https://github.com/bigo-ads/BigoADS-Swift-Package.git", exact: "6.2.0")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationBigoAdsAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/bigoads-adapter/AppLovinMediationBigoAdsAdapter-6.1.0.1.zip",
-            checksum: "03d09d511cfcf0d614ef872cdb20a686e81f6be302f43a60425b0097b6e35157"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/bigoads-adapter/AppLovinMediationBigoAdsAdapter-6.2.0.0.zip",
+            checksum: "58ceba868ce8f5af31aaeb62082e5679952ee64c62de7d57d910d862612d6b81"
         )
     ]
 )
